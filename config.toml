@@ -1,0 +1,80 @@
+# Site settings
+baseurl = "/"
+languageCode = "en-us"
+title = "Brooke Watson"
+theme = "hugo-smpl-theme"
+disableKinds = ["section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = "UA-47082548-3"
+
+[params]
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
+
+  # To provide more meta data for search engines feel free to add a few information.
+  # This lines will be inserted as meta tags.
+  name = "Brooke Watson, Data Scientist"
+  description = "Research, Data Science, Public Health, R Ladies, NASA Datanauts."
+
+  # Background
+  [params.background]
+    image = "assets/img/sunset.jpg"
+
+    # Enable and set background fade speed
+    [params.background.fade]
+      enable = true
+      speed = 500
+
+  # Logo section
+  [params.logo]
+    enable = true
+    image = "assets/img/avatar.png"
+    alt = ""
+    width = "150"
+
+  # Header section
+  [params.header]
+    enable = true
+    title = "Brooke Watson"
+    subtitle = "[Research](https://www.ecohealthalliance.org/personnel/brooke-watson-2) + [Data Science](https://blog.brooke.science)"
+
+
+  # Quote section
+  [params.quote]
+    enable = false
+    text = ""
+
+  # Social icons section
+  # Add a modifier class to increase size
+  # fa-lg, fa-2x, fa-3x, fa-4x, fa-5x
+  # e.g., icon = "fa-instagram fa-lg"
+  [params.social_icons]
+    enable = true
+
+  [[params.social]]
+    title = "Twitter"
+    icon = "fa-twitter"
+    link = "http://twitter.com/brooklynevery1"
+
+#   [[params.social]]
+#     title = "Premium Themes"
+#     icon = "fa-briefcase"
+#     link = "https://wrapbootstrap.com/user/Basicoh"
+
+  [[params.social]]
+    title = "Blog"
+    icon = "fa-pencil"
+    link = "http://blog.brooke.science"
+
+#   [[params.social]]
+#     title = "Blog"
+#     icon = "fa-comment"
+#     link = "http://freelance.postach.io"
+
+  [[params.social]]
+    title = "Github"
+    icon = "fa-github"
+    link = "https://www.github.com/brooke-watson"
